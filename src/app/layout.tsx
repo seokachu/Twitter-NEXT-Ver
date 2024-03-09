@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        Root layout
+        {children}
+      </body>
     </html>
   );
 }
